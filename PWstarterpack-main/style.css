@@ -33,7 +33,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: blueviolet;
+    background-color: black;
     color: cornsilk;
     padding-top: 20px;
 }
@@ -150,4 +150,75 @@ footer{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     white-space: nowrap;
+  }
+
+
+  .op-card{
+    /* background: rgba(0, 0, 0, 0.4); */
+    background: rgba(70, 26, 127, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px;
+}
+
+  .op-card-small{
+    background: rgba(70, 26, 127, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+/* About Me */
+#aboutMe{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 135px;
+    padding-bottom: 75px;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+#aboutMe p{
+    margin-bottom: 0;
+}
+
+#headShot{
+    width: 70%;
+}
+
+mark{
+    background-color: rgba(70, 26, 127, 0.8);
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.skill-icon{
+    width: 30px;
+}
+
+/* Experience Style */
+.dark {
+    color: white;
+    background: rgba(70, 26, 127, 0.8);
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  #pageHeaderTitle {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
   }

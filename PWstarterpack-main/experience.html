@@ -21,7 +21,10 @@
 <body>
 	<!-- <h1>Hamzah issa!</h1> //header is needed --> 
 	<nav class="navbar navbar-expand-md " style="background-color: rgba(77, 26, 127, 0.7)">
-		<a class="navbar-brand" href="#" >Navbar</a>
+		<a class="navbar-brand" href="#" >
+			<img src="Images/logo.jpg" width="70" height="40" alt="">
+			<!-- Navbar -->
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
@@ -48,6 +51,95 @@
 	  </nav>
 </body>
 
+
+<!-- <div class="container-fluid" id="experience">
+	<div class="row">
+		<div class="col text-center text-white mb-4 section-title aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1750">
+			<h1>Experience</h1>
+		</div>
+	</div>
+	<div data-aos="fade-up" data-aos-duration="1500" class="aos-init aos-animate">
+		<article class="postcard dark blue" data-tilt="" data-tilt-scale="0.95" data-tilt-perspective="1750" style="will-change: transform; transform: perspective(1750px) rotateX(0deg) rotateY(0deg);">
+			<a class="postcard__img_link">
+				<img class="postcard__img" src="assets/amazon-navy.png" alt="Image Title">
+			</a>
+			<div class="postcard__text postcard__text-left">
+				<h1 class="postcard__title blue"><a>Amazon Web Services</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fa fa-calendar mr-2"></i>June 2021 - Present
+					</time>
+				</div>
+				<div class="postcard__preview-txt">As an Intern on the SDK and Tools team, I was able to complete a
+					hands-on bootcamp
+					where I learned to solve sample Amazon problems using services such as DynamoDB, S3, and Lambda.
+					For my final 8 weeks I contributed to a new project which automates the building and releasing of AWS SDK products and
+					provides a general framework for developers to use it.</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item tag-one"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" class="iconify mr-1 ts-icon" data-icon="cib:typescript" data-inline="false" style="transform: rotate(360deg);"><path d="M0 16v16h32V0H0zm25.786-1.276a4.023 4.023 0 0 1 2.005 1.156c.292.312.729.885.766 1.026c.01.042-1.38.974-2.224 1.495c-.031.021-.156-.109-.292-.313c-.411-.599-.844-.859-1.505-.906c-.969-.063-1.594.443-1.589 1.292a1.26 1.26 0 0 0 .135.599c.214.443.615.708 1.854 1.245c2.292.984 3.271 1.635 3.88 2.557c.682 1.031.833 2.677.375 3.906c-.51 1.328-1.771 2.234-3.542 2.531c-.547.099-1.849.083-2.438-.026c-1.286-.229-2.505-.865-3.255-1.698c-.297-.323-.87-1.172-.833-1.229c.016-.021.146-.104.292-.188l1.188-.688l.922-.536l.193.286c.271.411.859.974 1.214 1.161c1.021.542 2.422.464 3.115-.156c.281-.234.438-.594.417-.958c0-.37-.047-.536-.24-.813c-.25-.354-.755-.656-2.198-1.281c-1.651-.714-2.365-1.151-3.01-1.854a4.236 4.236 0 0 1-.88-1.599c-.12-.453-.151-1.589-.057-2.042c.339-1.599 1.547-2.708 3.281-3.036c.563-.109 1.875-.068 2.427.068zm-7.51 1.339l.01 1.307h-4.167v11.839h-2.948V17.37H7.01v-1.281c0-.714.016-1.307.036-1.323c.016-.021 2.547-.031 5.62-.026l5.594.016z" fill="currentColor"></path></svg>TypeScript</li>
+					<li class="tag__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" class="iconify mr-1 aws-icon" data-icon="cib:amazon-aws" data-inline="false" style="transform: rotate(360deg);"><path d="M9.016 13.38c0 .396.047.714.12.948c.083.234.193.49.339.766a.451.451 0 0 1 .078.245c0 .109-.068.214-.203.323l-.672.443a.489.489 0 0 1-.276.099c-.109 0-.214-.052-.318-.151a3.007 3.007 0 0 1-.385-.5a7.01 7.01 0 0 1-.328-.625c-.833.979-1.875 1.469-3.13 1.469c-.896 0-1.609-.255-2.13-.766c-.521-.516-.786-1.193-.786-2.047c0-.901.318-1.641.969-2.193s1.51-.828 2.609-.828c.359 0 .734.031 1.125.083c.396.052.802.141 1.224.234v-.776c0-.807-.167-1.375-.5-1.703c-.339-.328-.911-.49-1.734-.49c-.37 0-.755.042-1.151.135a8.633 8.633 0 0 0-1.146.365c-.125.057-.25.099-.375.141a.81.81 0 0 1-.167.031c-.151 0-.224-.109-.224-.333v-.521c0-.167.021-.297.073-.37a.735.735 0 0 1 .297-.224a5.955 5.955 0 0 1 1.339-.479a6.414 6.414 0 0 1 1.661-.203c1.271 0 2.193.286 2.792.865c.583.573.88 1.443.88 2.615v3.448zM4.698 15c.349 0 .714-.063 1.094-.193a2.327 2.327 0 0 0 1.01-.677c.172-.203.302-.427.365-.682s.104-.568.104-.927v-.448a8.659 8.659 0 0 0-.979-.182a7.862 7.862 0 0 0-1-.063c-.714 0-1.234.141-1.583.427c-.354.286-.521.693-.521 1.224c0 .5.125.87.391 1.125c.255.266.63.396 1.12.396zm8.547 1.151c-.193 0-.323-.031-.406-.109c-.083-.063-.161-.214-.224-.411l-2.5-8.229a1.765 1.765 0 0 1-.094-.427c0-.172.083-.266.25-.266h1.047c.203 0 .339.031.411.104c.089.063.151.214.214.417l1.792 7.047l1.661-7.047c.052-.214.115-.354.198-.417a.721.721 0 0 1 .427-.104h.849c.203 0 .344.031.427.104c.083.063.161.214.203.417l1.682 7.13l1.839-7.13c.068-.214.141-.354.214-.417a.69.69 0 0 1 .417-.104h.99c.172 0 .266.083.266.266c0 .052-.01.104-.021.172a1.756 1.756 0 0 1-.073.266l-2.568 8.224c-.063.214-.135.354-.224.417a.643.643 0 0 1-.401.104h-.917c-.203 0-.339-.031-.427-.104c-.083-.073-.156-.214-.198-.427l-1.651-6.865l-1.641 6.854c-.052.214-.115.354-.203.427c-.083.073-.234.104-.427.104zm13.672.287c-.552 0-1.104-.068-1.635-.193s-.948-.266-1.224-.427c-.172-.094-.286-.198-.328-.297a.725.725 0 0 1-.068-.297v-.542c0-.224.089-.333.245-.333c.063 0 .13.01.193.031c.063.026.161.068.266.109c.365.161.755.286 1.172.37c.427.089.839.13 1.266.13c.672 0 1.193-.12 1.552-.354c.354-.214.568-.599.557-1.01a1.072 1.072 0 0 0-.286-.745c-.193-.198-.557-.38-1.078-.552l-1.542-.479c-.776-.245-1.354-.604-1.703-1.083a2.552 2.552 0 0 1-.536-1.547c0-.448.099-.839.292-1.182c.193-.339.448-.635.766-.87a3.328 3.328 0 0 1 1.104-.552c.427-.13.875-.182 1.344-.182c.234 0 .479.01.714.042c.245.031.469.073.693.12c.208.052.411.104.604.167s.344.13.448.193a.93.93 0 0 1 .318.266a.573.573 0 0 1 .099.354v.5c0 .224-.089.339-.245.339a1.087 1.087 0 0 1-.406-.125a4.844 4.844 0 0 0-2.042-.417c-.609 0-1.089.094-1.417.297c-.333.203-.5.51-.5.948c0 .297.104.552.318.755s.609.406 1.172.589l1.51.474c.766.245 1.323.589 1.651 1.026c.328.432.49.932.49 1.49c0 .453-.099.87-.276 1.234a2.998 2.998 0 0 1-.776.938c-.333.266-.724.453-1.182.594a5.164 5.164 0 0 1-1.526.224zm2.015 5.171c-3.505 2.589-8.589 3.958-12.964 3.958c-6.13 0-11.656-2.266-15.828-6.036c-.328-.297-.031-.703.365-.464c4.51 2.615 10.078 4.203 15.833 4.203c3.885 0 8.151-.813 12.083-2.469c.583-.271 1.083.38.51.807zm1.459-1.661c-.448-.573-2.964-.276-4.099-.135c-.339.042-.396-.26-.083-.484c2-1.401 5.286-1 5.672-.531c.38.484-.109 3.771-1.979 5.344c-.286.245-.568.12-.438-.203c.427-1.052 1.375-3.422.927-3.99z" fill="currentColor"></path></svg>SDK</li>
+					<li class="tag__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 24" class="iconify mr-1" data-icon="fontisto:nodejs" data-inline="false" style="transform: rotate(360deg);"><path d="M10.639 24h-.003c-.339 0-.656-.091-.928-.251l.009.005l-2.937-1.737c-.438-.246-.224-.332-.08-.383a5.817 5.817 0 0 0 1.352-.618l-.024.014a.225.225 0 0 1 .219.018l-.001-.001l2.256 1.339a.288.288 0 0 0 .274-.001l-.002.001l8.794-5.077a.28.28 0 0 0 .134-.238V6.922a.282.282 0 0 0-.136-.239l-.001-.001l-8.791-5.072a.277.277 0 0 0-.272.001l.001-.001l-8.789 5.073a.281.281 0 0 0-.139.24v10.149c0 .101.055.188.137.234l.001.001l2.41 1.392c1.307.654 2.107-.116 2.107-.889V7.788c0-.14.114-.254.254-.254H7.603c.14 0 .254.113.254.254V17.81c0 1.745-.95 2.746-2.604 2.746l-.066.001a3.745 3.745 0 0 1-1.976-.56l-2.29-1.318a1.858 1.858 0 0 1-.922-1.605V6.923C0 6.243.367 5.65.913 5.328l.009-.005L9.717.241a1.923 1.923 0 0 1 1.858.005l-.01-.005l8.794 5.082c.555.327.921.92.923 1.6v10.15a1.86 1.86 0 0 1-.915 1.6l-.009.005l-8.792 5.078a1.823 1.823 0 0 1-.922.246h-.007z" fill="currentColor"></path><path d="M13.356 17.009c-3.848 0-4.655-1.766-4.655-3.249v-.001c0-.14.113-.253.253-.253h1.14c.127 0 .232.093.252.214v.001c.171 1.158.683 1.742 3.01 1.742c1.853 0 2.64-.419 2.64-1.402c0-.567-.223-.987-3.102-1.269c-2.406-.24-3.894-.77-3.894-2.695c0-1.774 1.496-2.833 4-2.833c2.818 0 4.212.978 4.388 3.076l.001.022a.254.254 0 0 1-.254.254h-1.133a.253.253 0 0 1-.246-.198v-.002c-.274-1.218-.94-1.607-2.746-1.607c-2.023 0-2.258.705-2.258 1.232c0 .64.278.826 3.009 1.187c2.702.358 3.986.863 3.986 2.762c-.004 1.919-1.601 3.017-4.388 3.017z" fill="currentColor"></path></svg>Node.js</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+
+	<div data-aos="fade-up" data-aos-duration="1500" class="aos-init">
+		<article class="postcard dark green" data-tilt="" data-tilt-scale="0.95" data-tilt-perspective="1750" style="will-change: transform; transform: perspective(1750px) rotateX(0deg) rotateY(0deg);">
+			<a class="postcard__img_link">
+				<img class="postcard__img" src="assets/SHPE_Logo.png" alt="Image Title">
+			</a>
+			<div class="postcard__text postcard__text-left">
+				<h1 class="postcard__title green"><a>Society of Hispanic Professional Engineers</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fa fa-calendar mr-2"></i>June 2020 - Present
+					</time>
+				</div>
+				<div class="postcard__preview-txt">As the Director of Technical Affairs, I've implemented a point
+					automation system that ranks members based off
+					their involvement and has reduced the work of our secretaries by more than 80%. I lead a team in
+					the development of a website that will facilitate networking between current members, alumni,
+					and recruiters using
+					the Ruby on Rails framework. This website will be released at the start of the fall semester.
+				</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item tag-one"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify js-icon" data-icon="bx:bxl-javascript" data-inline="false" style="transform: rotate(360deg);"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155c-.552-.259-1.165-.438-1.349-.854c-.068-.248-.078-.382-.034-.529c.113-.484.687-.629 1.137-.495c.293.09.563.315.732.676c.775-.507.775-.507 1.316-.844c-.203-.314-.304-.451-.439-.586c-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754c-.855.968-.608 2.655.427 3.354c1.023.765 2.521.933 2.712 1.653c.18.878-.652 1.159-1.475 1.058c-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832c1.305 1.316 4.568 1.249 5.153-.754c.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354c0 .924.047 1.772-.104 2.033c-.247.517-.886.451-1.175.359c-.297-.146-.448-.349-.623-.641c-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137c.641.383 1.502.507 2.404.305c.588-.17 1.095-.519 1.358-1.059c.384-.697.302-1.553.299-2.509c.008-1.541 0-3.083 0-4.635l.003-.042z" fill="currentColor"></path></svg>JavaScript</li>
+					<li class="tag__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify mr-1 rails-icon" data-icon="fontisto:rails" data-inline="false" style="transform: rotate(360deg);"><path d="M20.89 14.987v1.164h1.982A1.166 1.166 0 0 0 24 14.987l-.001-.038v.002v-.45l.001-.047c0-.628-.502-1.139-1.127-1.153h-.989v-.54h1.958v-1.162h-1.879a1.188 1.188 0 0 0-1.136 1.187v.03v-.001v.405l-.001.035c0 .633.504 1.148 1.133 1.165h.002c1.36.006-.327 0 .934 0v.566l-2.006.006zm-10.623-.283s1.061-.097 1.061-1.55a1.493 1.493 0 0 0-1.277-1.587l-.008-.001H7.729v4.585h1.164v-1.106l1.006 1.106h1.722l-1.354-1.446zm-.449-.939h-.926v-1.048h.934a.52.52 0 0 1 .26.524v-.003a.532.532 0 0 1-.264.526l-.003.001zm4.384-2.167h-1.18a1.177 1.177 0 0 0-1.127 1.176v.025v-.001v3.36h1.182v-.8h1.11v.8h1.144v-3.36a1.147 1.147 0 0 0-1.127-1.199h-.001zm-.015 2.45h-1.12v-1.114s0-.25.37-.25h.406c.327 0 .334.25.334.25v1.113zm1.68-2.45h1.23v4.553h-1.23zm2.96 3.376v-3.376h-1.223v4.553h2.88v-1.177z" fill="currentColor"></path><path d="M.424 16.151h4.79s-.915-4.43 2.116-6.225c.661-.341 2.764-1.614 6.208 1.086c.109-.097.212-.174.212-.174s-3.153-3.337-6.663-2.964c-1.764.167-3.934 1.871-5.207 4.122a11.39 11.39 0 0 0-1.447 4.09l-.008.064z" fill="currentColor"></path><path d="M.424 16.15h4.79s-.915-4.43 2.116-6.225c.661-.341 2.764-1.614 6.208 1.086c.109-.097.212-.174.212-.174s-3.153-3.336-6.663-2.963c-1.77.167-3.94 1.871-5.214 4.122a11.3 11.3 0 0 0-1.441 4.091l-.008.063zm9.981-7.915l.024-.431a2.695 2.695 0 0 0-.568-.22l-.02-.005l-.024.424c.2.07.394.148.588.231z" fill="currentColor"></path><path d="M9.826 9.598l-.024.405c.217.008.423.037.622.084l-.022-.004l.024-.4a3.796 3.796 0 0 0-.588-.084zM7.584 7.592h.061L7.52 7.2c-.205 0-.407.014-.605.041l.023-.003l.115.379c.149-.016.322-.026.498-.026h.035h-.002zm.291 2.366l.139.444c.146-.079.321-.155.501-.217l.026-.008l-.134-.424a4.105 4.105 0 0 0-.559.217l.026-.011zM5.12 8.267l-.273-.444c-.151.08-.309.174-.473.277l.279.45c.16-.103.311-.2.466-.283zm1.242 2.894l.291.463c.113-.171.231-.32.36-.459l-.002.002l-.273-.438a3.432 3.432 0 0 0-.369.422l-.007.009zm-.88 2.07l.491.411c.028-.284.073-.54.135-.789l-.008.037l-.437-.366a5.68 5.68 0 0 0-.175.666l-.007.041zm-2.651-3.054L2.4 9.779c-.16.16-.309.32-.449.48l.466.424c.139-.19.274-.355.417-.514l-.005.006zM1 13.051l-.697-.272c-.115.277-.24.598-.303.772l.697.27c.079-.218.206-.533.303-.77zm4.395 1.814c.009.295.035.575.078.849l-.005-.039l.727.277a9.332 9.332 0 0 1-.146-.836l-.654-.25z" fill="currentColor"></path></svg>Ruby on Rails</li>
+					<!-- <li class="tag__item"><span class="iconify mr-1" data-icon="fontisto:nodejs" data-inline="false"></span></span>Node.js</li> -->
+				<!-- </ul>
+			</div>
+		</article>
+	</div>
+
+	<div data-aos="fade-up" data-aos-duration="1500" class="aos-init">
+		<article class="postcard dark red" data-tilt="" data-tilt-scale="0.95" data-tilt-perspective="1750">
+			<a class="postcard__img_link">
+				<img class="postcard__img" src="assets/tamu_square.png" alt="Image Title">
+			</a>
+			<div class="postcard__text postcard__text-left">
+				<h1 class="postcard__title red"><a>Engineering Peer Teacher</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fa fa-calendar mr-2"></i>Fall 2019 - Fall 2020
+					</time>
+				</div>
+				<div class="postcard__preview-txt">As an Engineering Peer Teacher, I collaborated with 8 professors
+					total to ensure that students were well
+					prepared to utilize Python in their engineering career. I had to develop numerous ways to
+					communicate high
+					level concepts to students with little or no experience in programming. Having reviewed and
+					graded hundreds of projects,
+					I’ve diversified my approach to different coding problems.</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item tag-one"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify mr-1" data-icon="bx:bxl-python" data-inline="false" style="transform: rotate(360deg);"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282s2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57a.784.784 0 1 1 0 1.57z" fill="currentColor"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282s-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57a.784.784 0 1 1 0-1.57z" fill="currentColor"></path></svg>Python</li>
+					<li class="tag__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.94em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 480 512" class="iconify mr-1 numpy-icon" data-icon="file-icons:numpy" data-inline="false" style="transform: rotate(360deg);"><path d="M203.557 104.031l-85.513-43.17l-93.883 46.856l87.846 44.112l91.55-47.798zm39.225 19.791l89.665 45.29l-93.025 46.711l-87.982-44.177l91.342-47.824zm119.766-62.317l92.128 46.212l-82.406 41.376l-89.848-45.335l80.126-42.253zm-39.66-19.902L239.948 0l-82.036 40.96l85.468 43.098l79.508-42.455zm-64.835 357.195V512l100.466-50.15l-.091-113.248l-100.375 50.196zm100.33-89.72l-.118-112.051l-100.212 49.831V358.95l100.33-49.87zM479 288.091V401.73l-85.701 42.754l-.072-113.111L479 288.092zm0-39.738V136.997l-85.792 42.682v112.28L479 248.353zm-256.415-1.495l-67.669-34.05v147.064L64.491 167.91c-.988-2.048-5.043-4.283-6.083-4.836L0 133.266v259.916l60.163 32.25V289.516l82.731 159.115c.851 1.722 9.027 18.29 17.825 24.113c11.678 7.767 61.82 37.918 61.82 37.918l.046-263.803z" fill="currentColor"></path></svg>NumPy</li>
+					<li class="tag__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" class="iconify mr-1 plot-icon" data-icon="carbon:qq-plot" data-inline="false" style="transform: rotate(360deg);"><circle cx="20" cy="4" r="2" fill="currentColor"></circle><circle cx="8" cy="16" r="2" fill="currentColor"></circle><circle cx="28" cy="12" r="2" fill="currentColor"></circle><circle cx="11" cy="7" r="2" fill="currentColor"></circle><circle cx="16" cy="24" r="2" fill="currentColor"></circle><path d="M30 3.413L28.586 2L4 26.585V2H2v26a2 2 0 0 0 2 2h26v-2H5.413z" fill="currentColor"></path></svg>Matplotlib</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+</div> --> -->
 
 <!-- <footer>
 	<h3 class = "text-center">Follow me on Social Media!</h3>
