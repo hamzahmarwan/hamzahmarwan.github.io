@@ -8,6 +8,7 @@
 body {
     background-image: url('Images/wp4.jpg');
     height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,8 +31,7 @@ body {
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+
     width: 100%;
     background-color: black;
     color: cornsilk;
@@ -86,7 +86,7 @@ footer{
   }
   
   
-  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  .rounded-social-buttons .fa-github, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
     font-size: 25px;
   }
   
@@ -100,14 +100,15 @@ footer{
     border-color: #3b5998;
   }
   
-  .rounded-social-buttons .social-button.twitter {
-    background: #55acee;
+  .rounded-social-buttons .social-button.github {
+    background: white; 
+    color: black;
   }
   
-  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
-    color: #55acee;
-    background: #fefefe;
-    border-color: #55acee;
+  .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+    color: white;
+    background: black;
+    border-color: white;    
   }
   
   .rounded-social-buttons .social-button.linkedin {
@@ -222,3 +223,14 @@ mark{
     text-align: center;
     font-size: 2.5rem;
   }
+
+
+
+@media only screen and (max-width: 600px) {
+    .name{
+        font-size: 50px;
+    }
+    .backtext{
+        font-size: 31px;
+    }
+}
