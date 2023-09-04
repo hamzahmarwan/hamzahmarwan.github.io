@@ -135,7 +135,7 @@ footer {
 /* Style for the image itself */
 .image-container img {
   max-width: 40%; /* Make the image fill its container */
-  margin-top: 20px;
+  margin-top: 50px;
   height: auto; /* Maintain aspect ratio */
 }
 
