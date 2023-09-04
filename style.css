@@ -350,7 +350,7 @@ footer {
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   margin-right: 10px; /* Adjust the margin between logos as needed */
   display: inline-block; /* Display logos next to each other */
-  margin-top: 10px;
+  margin-top: 50px;
   margin: 10px;
 }
 
