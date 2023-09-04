@@ -19,60 +19,33 @@
 </head>
 
 <!-- background -->
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ... (other meta tags and title) ... -->
+    <link rel="stylesheet" href="styles.css"> <!-- Replace 'styles.css' with your CSS file path -->
     <style>
-        /* CSS for dynamic background animation */
-        body {
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Add planes using pseudo-elements */
+        /* Additional CSS for parallax scrolling effect */
         body::before {
             content: "";
-            position: absolute;
+            background-image: url('Images/wp4.jpg'); /* Replace with your background image path */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
             top: 0;
-            left: -200px;
-            width: 200px;
-            height: 200px;
-            background-image: url('plane.png'); /* Replace with your plane image path */
-            animation: planeAnimation 20s linear infinite;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6; /* Adjust the opacity as desired */
         }
 
-        /* Animation for the planes */
-        @keyframes planeAnimation {
-            0% {
-                transform: translateX(-200px);
-            }
-            100% {
-                transform: translateX(calc(100% + 200px));
-            }
-        }
-
-        /* Dark background color */
-        body {
-            background-color: #333; /* Dark background color */
-            color: white; /* Light text color for contrast */
-        }
-
-        /* Rest of your CSS code */
+        /* Rest of your existing CSS code */
         /* ... */
 
     </style>
-    <title>Your Dynamic Background</title>
 </head>
-<body>
-    <!-- Your HTML content goes here -->
-    <!-- ... -->
-</body>
-</html>
 
-
-<!-- BK end -->
 
 <body>
 	<!-- <h1>Hamzah issa!</h1> //header is needed --> 
