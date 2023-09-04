@@ -227,7 +227,7 @@ footer {
   display: inline-block; /* Make it inline-block to wrap closely around the text */
   position: absolute;
   top: 50%;
-  right: 50%;
+  right: 80%;
   transform: translate(50%, -50%);
 }
 
