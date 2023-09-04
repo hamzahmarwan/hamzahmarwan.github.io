@@ -222,12 +222,12 @@ footer {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   padding: 5px; /* Adjust the padding as needed */
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: right;
   display: inline-block; /* Make it inline-block to wrap closely around the text */
   position: absolute;
   top: 50%;
-  right: 50%;
+  right: 60%;
   transform: translate(50%, -50%);
 }
 
