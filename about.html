@@ -27,25 +27,36 @@
     <style>
         /* CSS for dynamic background animation */
         body {
-            animation: dynamicBackground 10s infinite;
+            position: relative;
+            overflow: hidden;
         }
 
-        @keyframes dynamicBackground {
+        /* Add planes using pseudo-elements */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -200px;
+            width: 200px;
+            height: 200px;
+            background-image: url('plane.png'); /* Replace with your plane image path */
+            animation: planeAnimation 20s linear infinite;
+        }
+
+        /* Animation for the planes */
+        @keyframes planeAnimation {
             0% {
-                background-color: #ff5733; /* Starting background color */
-            }
-            25% {
-                background-color: #33ff57; /* Color at 25% of animation */
-            }
-            50% {
-                background-color: #5733ff; /* Color at 50% of animation */
-            }
-            75% {
-                background-color: #ff5733; /* Color at 75% of animation */
+                transform: translateX(-200px);
             }
             100% {
-                background-color: #33ff57; /* Ending background color */
+                transform: translateX(calc(100% + 200px));
             }
+        }
+
+        /* Dark background color */
+        body {
+            background-color: #333; /* Dark background color */
+            color: white; /* Light text color for contrast */
         }
 
         /* Rest of your CSS code */
@@ -59,7 +70,9 @@
     <!-- ... -->
 </body>
 </html>
->
+
+
+<!-- BK end -->
 
 <body>
 	<!-- <h1>Hamzah issa!</h1> //header is needed --> 
