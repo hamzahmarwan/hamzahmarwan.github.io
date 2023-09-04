@@ -216,6 +216,7 @@ footer {
 } */ 
 
 /* Style for the white text with a purple background */
+/* Style for the white text with a purple background */
 .white-text-with-background {
   background: rgba(70, 26, 127, 0.8);
   -webkit-backdrop-filter: blur(5px);
@@ -224,7 +225,12 @@ footer {
   border-radius: 10px;
   text-align: right;
   display: inline-block; /* Make it inline-block to wrap closely around the text */
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
+
 
 
 /* Additional styles or modifications go here */
