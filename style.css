@@ -346,7 +346,7 @@ footer {
 
 /* Style for organization logos */
 .organization-logo {
-  top: 20%;
+  padding-top: 20px;
   width: 100px; /* Set the desired width for all logos */
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   margin-right: 10px; /* Adjust the margin between logos as needed */
