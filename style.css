@@ -196,8 +196,10 @@ footer{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   padding: 20px 40px;
+  margin-top: 20px;
   border-radius: 10px;
   text-align: right;
+  max-width: 800px;
 }
 
 /* Additional styles or modifications go here */
