@@ -6,14 +6,54 @@
         specific styles to add some pizzaz to your website.
  */
 
-body {
+/* body {
     background-image: url('Images/wp4.jpg');
     height: 100%;
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Replace 'styles.css' with your CSS file path -->
+    <title>Your Website</title>
+    <style>
+        /* Additional CSS for parallax scrolling effect */
+        body::before {
+            content: "";
+            background-image: url('Images/wp4.jpg'); /* Replace with your background image path */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6; /* Adjust the opacity as desired */
+        }
+
+        /* Rest of your existing CSS code */
+        /* ... */
+
+    </style>
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <!-- ... -->
+    <script>
+        // JavaScript code can go here if needed
+    </script>
+</body>
+</html>
+
 
  .name {
     font-size: 75px;
