@@ -6,14 +6,15 @@
         specific styles to add some pizzaz to your website.
  */
 
-body {
+/* body {
     background-image: url('Images/space.jpg');
     height: 100%;
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
 
  .name {
     font-size: 55px;
@@ -83,7 +84,7 @@ footer {
 
 /* Style for the image itself */
 .image-container img {
-  max-width: 0%; /* Make the image fill its container */
+  max-width: 40%; /* Make the image fill its container */
   height: auto; /* Maintain aspect ratio */
 }
 
