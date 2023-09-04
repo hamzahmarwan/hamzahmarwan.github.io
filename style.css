@@ -68,14 +68,16 @@ footer {
 
 /* Style for the image container */
 .image-container {
-  text-align: left; /* Position the image to the left */
+  text-align: left; /* Align the image to the left */
   margin-top: 20px; /* Add some spacing */
 }
 
 /* Style for the image itself */
 .image-container img {
-  max-width: 80%; /* Make the image 20% smaller */
+  max-width: 60%; /* Make the image 40% smaller */
   height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any text spacing below the image */
+  margin: 0 auto; /* Center the image horizontally within the container */
 }
 
 
