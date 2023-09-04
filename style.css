@@ -70,14 +70,15 @@ footer {
 .image-container {
   text-align: left; /* Align the image to the left */
   margin-top: 20px; /* Add some spacing */
-  float: left; /* Float the image to the left */
-  margin-right: 20px; /* Add some spacing between the image and text */
+  margin-right: 20px; /* Add spacing between the image and text */
+  display: inline-block; /* Keep the image inline with text */
 }
 
 /* Style for the image itself */
 .image-container img {
   max-width: 40%; /* Make the image 60% smaller */
   height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Vertically align the image with text */
 }
 
 
