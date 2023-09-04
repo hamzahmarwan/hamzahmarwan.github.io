@@ -188,6 +188,24 @@ footer{
 }
 
 
+/* index background */
+
+/* Style for the white text with a purple background */
+.white-text-with-background {
+  background: rgba(70, 26, 127, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 800px;
+}
+
+/* Additional styles or modifications go here */
+/* ... */
+
+
 /* About Me */
 #aboutMe{
     color: white;
