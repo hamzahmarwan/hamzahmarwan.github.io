@@ -70,7 +70,7 @@ footer {
 .image-text-container {
   display: grid;
   grid-template-columns: 1fr 2fr; /* Two columns: 1/3 for the image and 2/3 for the text */
-  align-items: center; /* Vertically center items */
+  align-items: right; /* Vertically center items */
   gap: 10px; /* Add spacing between image and text */
   margin-top: 70px; /* Add spacing from the top */
 }
