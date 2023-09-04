@@ -31,13 +31,25 @@ body {
         margin: 0;
 }
 
-footer{
+/* footer{
 
     width: 100%;
     background-color: black;
     color: cornsilk;
-    padding-top: 20px;
+    padding-top: 20px; */
+/* } */
+
+/* Existing footer styles with sticky positioning */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: cornsilk;
+  padding-top: 20px;
 }
+
 .social a{
     color: green;
 
