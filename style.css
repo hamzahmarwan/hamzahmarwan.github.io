@@ -351,6 +351,12 @@ footer {
   margin-right: 10px; /* Adjust the margin between logos as needed */
   display: inline-block; /* Display logos next to each other */
 }
+.organization-logo2 {
+  width: 80px; /* Set the desired width for all logos */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  margin-right: 10px; /* Adjust the margin between logos as needed */
+  display: inline-block; /* Display logos next to each other */
+}
 
 
 /* About Me */
