@@ -359,6 +359,11 @@ footer {
 /* About Me */
 
 
+/* Ensure images maintain aspect ratio within the carousel */
+#aboutMe .carousel-inner img {
+  object-fit: cover;
+  height: 100%; /* Set height to 100% to fill the fixed-height container */
+}
 
 
 #aboutMe{
