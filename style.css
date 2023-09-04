@@ -82,7 +82,7 @@ footer {
 
 /* Style for the image itself */
 .image-container img {
-  max-width: 70%; /* Make the image fill its container */
+  max-width: 50%; /* Make the image fill its container */
   height: auto; /* Maintain aspect ratio */
 }
 
