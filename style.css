@@ -281,6 +281,29 @@ footer {
     max-width: 800px;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh; /* Adjust the height to your preference */
+  margin-top: 5px; /* Reduce this margin to push the content closer to the top */
+}
+
+.op-card2 {
+  background: rgba(70, 26, 127, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px 40px;
+  margin-top: 0; /* Remove top margin for the op-card */
+  border-radius: 10px;
+  text-align: left;
+  max-width: 800px;
+}
+
+
+
+
+
   .op-card-small{
     background: rgba(70, 26, 127, 0.8);
     -webkit-backdrop-filter: blur(5px);
@@ -422,3 +445,54 @@ mark{
         font-size: 31px;
     }
 }
+
+
+/* projects */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
