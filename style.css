@@ -142,6 +142,7 @@ footer {
 /* Style for the text container */
 .text-container {
   text-align: left; /* Align the text to the right */
+  margin-right: 50px;
 }
 
 /* Style for the text */
