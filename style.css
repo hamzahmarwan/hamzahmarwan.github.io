@@ -67,25 +67,6 @@ footer {
 
 
 
-/* headshot on index page */
-/* Style for the image */
-.image {
-  flex: 1; /* Make the image take up one-third of the container's width (adjust as needed) */
-  margin-right: 20px; /* Add some spacing between the image and text */
-  overflow: hidden; /* Hide any overflowing content */
-  border-radius: 50%; /* Create a circular frame */
-  width: 150px; /* Adjust the width and height as needed */
-  height: 150px;
-}
-
-/* Style for the image itself */
-.image img {
-  width: 100%; /* Ensure the image fits within the circular frame */
-  height: auto; /* Maintain aspect ratio */
-  border: 2px solid rgba(70, 26, 127, 0.8); /* Add a border to the circular frame */
-  border-radius: 50%; /* Maintain circular shape */
-}
-
 
 .svg-inline--fa {
     vertical-align: 0.010em;
