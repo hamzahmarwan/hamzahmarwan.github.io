@@ -19,32 +19,47 @@
 </head>
 
 <!-- background -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- ... (other meta tags and title) ... -->
-    <link rel="stylesheet" href="styles.css"> <!-- Replace 'styles.css' with your CSS file path -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Additional CSS for parallax scrolling effect */
-        body::before {
-            content: "";
-            background-image: url('Images/wp4.jpg'); /* Replace with your background image path */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            opacity: 0.6; /* Adjust the opacity as desired */
+        /* CSS for dynamic background animation */
+        body {
+            animation: dynamicBackground 10s infinite;
         }
 
-        /* Rest of your existing CSS code */
+        @keyframes dynamicBackground {
+            0% {
+                background-color: #ff5733; /* Starting background color */
+            }
+            25% {
+                background-color: #33ff57; /* Color at 25% of animation */
+            }
+            50% {
+                background-color: #5733ff; /* Color at 50% of animation */
+            }
+            75% {
+                background-color: #ff5733; /* Color at 75% of animation */
+            }
+            100% {
+                background-color: #33ff57; /* Ending background color */
+            }
+        }
+
+        /* Rest of your CSS code */
         /* ... */
 
     </style>
+    <title>Your Dynamic Background</title>
 </head>
+<body>
+    <!-- Your HTML content goes here -->
+    <!-- ... -->
+</body>
+</html>
+>
 
 <body>
 	<!-- <h1>Hamzah issa!</h1> //header is needed --> 
