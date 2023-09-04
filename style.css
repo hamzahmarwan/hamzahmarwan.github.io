@@ -33,7 +33,8 @@ body {
 
 footer{
 
-    width: 100%;
+  position: fixed  
+  width: 100%;
     background-color: black;
     color: cornsilk;
     padding-top: 20px;
@@ -199,6 +200,8 @@ footer{
   border-radius: 10px;
   text-align: right;
   max-width: 800px;
+  margin-left: auto; /* Push the element to the right side */
+  margin-right: 20px;
 }
 
 /* Additional styles or modifications go here */
