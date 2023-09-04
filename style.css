@@ -357,6 +357,22 @@ footer {
 
 
 /* About Me */
+
+
+/* new */
+/* Set a fixed height for the carousel-inner */
+.carousel-inner {
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide overflow to maintain aspect ratio */
+}
+
+/* Ensure images maintain aspect ratio within the carousel */
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%; /* Set height to 100% to fill the fixed-height container */
+}
+/*  */
+
 #aboutMe{
     color: white;
     padding-left: 50px;
