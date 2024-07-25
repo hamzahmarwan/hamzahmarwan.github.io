@@ -15,6 +15,37 @@
     background-size: cover;
 } */
 
+
+
+/* Add this to your CSS file, to ensure that my website is good across all devices*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
 body  {
